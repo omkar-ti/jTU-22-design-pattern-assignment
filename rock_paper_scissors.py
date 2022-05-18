@@ -77,16 +77,14 @@ cpu_player = CpuPlayer()
 player_score = 0
 cpu_score = 0
 
-test_data = ["Rock","Scissors","Change","Paper"]
+# test_data = ["Rock","Scissors","Change","Paper"]
 
 print("CPU starts of with a random choose move strategy.")
 
 for i in range(5):
 	print("\nEnter your move. (Rock, Paper or Scissors).\nTo change CPU strategy, enter 'Change'.\n")
-	player_move = random.choice(test_data)
+	player_move = input()
 
-
-	print(player_move)
 
 	if player_move == "Change":
 		cpu_player.flip_strategy()
