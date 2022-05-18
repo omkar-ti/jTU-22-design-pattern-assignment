@@ -2,7 +2,7 @@
 
 ## Rock Paper Scissor Game
 
-Since the focus is on various strategies the CPU can use, I have used the Strategy pattern.
+The application is a Human vs. CPU game. Since the focus is on various strategies the CPU can use, I have used the Strategy pattern.
 I have implemented both the strategies as classes following an (informal) interface. This interface is completely seperate from the CpuPlayer class.
 Strategies can be changed at runtime.
 Strategies can be added, modified without any hassle.
